@@ -7,7 +7,7 @@ const NGOProfile = () => {
   const [profileData, setProfileData] = useState({
     name: 'World Food Programme',
     description: 'Leading humanitarian organization fighting hunger worldwide. In Haiti, we provide emergency food assistance, school meals, and support for building resilient food systems to help communities become self-reliant.',
-    image: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=400',
+    image: 'https://upload.wikimedia.org/wikipedia/commons/5/59/World_Food_Programme_Logo_Simple.svg',
     location: 'Port-au-Prince, Haiti',
     phone: '+509 2876 5432',
     email: 'contact@wfp.org.ht',
