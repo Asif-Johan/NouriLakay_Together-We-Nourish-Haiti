@@ -125,7 +125,7 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=600" 
+                src="https://images.pexels.com/photos/6591162/pexels-photo-6591162.jpeg" 
                 alt="Haiti food relief coordination"
                 className="rounded-xl shadow-2xl"
               />
@@ -196,33 +196,7 @@ const About = () => {
       </section>
 
       {/* Team */}
-      <section className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h3 className="text-3xl font-bold text-gray-900 mb-4">Meet Our Team</h3>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Passionate individuals dedicated to making a difference in Haiti's food security response
-            </p>
-          </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {teamMembers.map((member, index) => (
-              <div key={index} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-lg transition-shadow duration-300">
-                <img 
-                  src={member.image} 
-                  alt={member.name}
-                  className="w-full h-64 object-cover"
-                />
-                <div className="p-6">
-                  <h4 className="text-xl font-semibold text-gray-900 mb-1">{member.name}</h4>
-                  <p className="text-haiti-blue font-medium mb-3">{member.role}</p>
-                  <p className="text-gray-600 text-sm leading-relaxed">{member.bio}</p>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Impact Stats */}
       <section className="py-20 bg-haiti-blue">

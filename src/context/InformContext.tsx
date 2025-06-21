@@ -49,7 +49,7 @@ export const InformProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       time: '15 minutes ago',
       location: 'Cité Soleil, Port-au-Prince',
       content: 'Critical food insecurity levels detected in Cité Soleil. Immediate intervention needed for 85,000 families. Our emergency response team is coordinating with local partners for rapid deployment.',
-      image: 'https://images.pexels.com/photos/6646918/pexels-photo-6646918.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/6591162/pexels-photo-6591162.jpeg',
       likes: 28,
       replies: [
         {
@@ -75,7 +75,7 @@ export const InformProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       time: '1 hour ago',
       location: 'Jean Rabel, Nord-Ouest',
       content: 'Successfully distributed cash transfers to 1,200 families and provided seeds/tools for sustainable farming. Mobile nutrition screening ongoing in Jean Rabel area.',
-      image: 'https://images.pexels.com/photos/6591307/pexels-photo-6591307.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/6646882/pexels-photo-6646882.jpeg',
       likes: 45,
       replies: [
         {
@@ -120,7 +120,7 @@ export const InformProvider: React.FC<{ children: ReactNode }> = ({ children }) 
       time: '3 hours ago',
       location: 'Artibonite Valley',
       content: 'Food crisis alert for Artibonite Valley. Agricultural production severely impacted. Farmers advised to access emergency seed distribution at regional centers.',
-      image: 'https://images.pexels.com/photos/552789/pexels-photo-552789.jpeg?auto=compress&cs=tinysrgb&w=400',
+      image: 'https://images.pexels.com/photos/6647111/pexels-photo-6647111.jpeg',
       likes: 67,
       replies: [
         {
