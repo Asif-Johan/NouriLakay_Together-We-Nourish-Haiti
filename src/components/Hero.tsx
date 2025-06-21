@@ -1,5 +1,6 @@
 import React from 'react';
 import { ArrowRight, MapPin, Users, Heart } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
@@ -24,13 +25,13 @@ const Hero = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <a 
-                href="/login" 
+              <Link 
+                to="/login" 
                 className="inline-flex items-center justify-center px-8 py-3 bg-haiti-blue text-white font-semibold rounded-lg hover:bg-primary-700 transition-all duration-200 hover:scale-105 shadow-lg"
               >
                 Join as NGO
                 <ArrowRight className="ml-2 h-5 w-5" />
-              </a>
+              </Link>
               <button 
                 onClick={() => document.getElementById('features')?.scrollIntoView({ behavior: 'smooth' })}
                 className="inline-flex items-center justify-center px-8 py-3 border-2 border-gray-300 text-gray-700 font-semibold rounded-lg hover:border-haiti-blue hover:text-haiti-blue transition-all duration-200"

@@ -6,6 +6,7 @@ import 'leaflet/dist/leaflet.css';
 
 // Fix for default markers in react-leaflet
 import L from 'leaflet';
+import { Link } from 'react-router-dom';
 delete (L.Icon.Default.prototype as any)._getIconUrl;
 L.Icon.Default.mergeOptions({
   iconRetinaUrl: 'https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/images/marker-icon-2x.png',
@@ -277,12 +278,12 @@ const AidStatusDemo = () => {
               no person facing hunger is left behind and every aid effort counts.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <a 
-                href="/login" 
+              <Link 
+                to="/login" 
                 className="inline-flex items-center justify-center px-8 py-3 bg-white text-haiti-blue font-semibold rounded-lg hover:bg-gray-100 transition-all duration-200"
               >
                 Join as NGO Partner
-              </a>
+              </Link>
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
                 className="inline-flex items-center justify-center px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white hover:text-haiti-blue transition-all duration-200"
